@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate-app",
+  "version": "1.0.0",
+  "description": "generate boilerplate starter projects with cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-boilerplate-app": "./cli"
+  },
+  "author": "baq.othmane@outlook.fr",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^6.7.12",
+    "randomstring": "^1.2.2",
+    "sao": "^1.6.1"
+  }
+}
